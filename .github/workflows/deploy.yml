@@ -66,7 +66,7 @@ jobs:
           SSH_PRIVATE_KEY: ${{ secrets.GITEE_RSA_PRIVATE_KEY }}
         with:
           # 注意替换为你的 GitHub 源仓库地址
-          source-repo: git@github.com:mi-saka10032/resume-template.git
+          source-repo: git@github.com:breeze0814/resume.git
           # 注意替换为你的 Gitee 目标仓库地址
           destination-repo: git@gitee.com:mi-sa-ka10032/resume-template.git
 
